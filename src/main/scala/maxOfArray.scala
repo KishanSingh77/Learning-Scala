@@ -1,0 +1,1 @@
+object maxOfArray {  def main(args: Array[String]): Unit = {    peakIndexInMountainArray(Array(0, 4, 2, 8));  };  def peakIndexInMountainArray(A: Array[Int]): Int = {return 1 ;  };}

@@ -1,0 +1,1 @@
+object sumRecursion {  def main(args: Array[String]): Unit = {    val x = 5;    println(recursiveSum(x));  };  def recursiveSum(y: Integer): Integer= {    if (y <= 1) 1;    else    y + recursiveSum (y - 1);  };}

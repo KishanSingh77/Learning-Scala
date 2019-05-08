@@ -1,0 +1,1 @@
+class Point(i: Int, j: Int) {  var x = i;  var y = j;    def move(m: Int, n: Int): Unit = {    x += m;    y += n;    println(s"New points ==>$x,$y");  };};object Demo   {  def main(args: Array[String]): Unit = {    val point = new Point(90, 80);    point.move(15, 13);  }}

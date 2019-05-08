@@ -1,0 +1,1 @@
+object stringReversal {  def main(args: Array[String]): Unit = {    reverseString("Malay");  };  var rev: String = "";  def reverseString(str: String): String = {    if (str.length() == 1) return str;    else reverseString(str)  };}

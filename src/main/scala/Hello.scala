@@ -1,0 +1,1 @@
+trait printName {  val printMyName = (name: String) => {    println(s"Hey $name");  }};object Hello extends printName   {  def main(args: Array[String]): Unit = {    println("Hello world from STS");  };      def printMyName(name: String) {    println(s"Buddy! $name");  };  printMyName("Kishan");}

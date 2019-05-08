@@ -1,0 +1,1 @@
+object fibonacci {  def main(args: Array[String]): Unit = {    var num = 4;    println( fibonacci(num))  };  def fibonacci(n: Integer): Integer = {    if(n==0) 0    else if(n==1) 1    else fibonacci(n-1)+fibonacci(n-2);    };}

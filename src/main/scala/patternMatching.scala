@@ -1,0 +1,1 @@
+import java.util.Scanner;object patternMatching {  val scan = new Scanner(System.in);  println("Enter the number babe! ");  var x = scan.nextInt();  def main(args: Array[String]): Unit = {    x match {      case 19 => println("it is 19");      case _ => println("sometihng else");    }  };};

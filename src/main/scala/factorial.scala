@@ -1,0 +1,1 @@
+object factorial {  def main(args: Array[String]): Unit = {    for (i <- 0 to 10) {      println(s"Factorial of $i is ==>" + factorial(i))    };  };  def factorial(n: Integer): Integer = {    if (n <= 1) 1;    else n * factorial(n - 1);  };}

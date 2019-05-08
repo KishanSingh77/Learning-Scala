@@ -1,0 +1,1 @@
+object Inhteritance {  def main(args: Array[String]): Unit = {    val sub = new child();    sub.one();    sub.two();  };};class Super {  def one(): Unit = {    println("in one of super")  };};class child extends Super {  one();  def two(): Unit = {    println("in two of child")  };};

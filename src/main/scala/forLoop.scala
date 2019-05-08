@@ -1,0 +1,1 @@
+object forLoop {  def main(args: Array[String]): Unit = {  };  val arr= Array[Int] (20);  for (i <- 0 to 10) {    arr(i) = i;  };  println(arr.mkString(","));}
