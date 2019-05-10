@@ -1,0 +1,1 @@
+object Animal {  def main(args: Array[String]): Unit = {  };  class Dog(val name: String) {    println(s"$name barks");  };  object Dog {    def apply(name: String): Dog = new Dog(name);    def makeSound():String = {       "Hello"    }  };  println(Dog("tommy"));};
