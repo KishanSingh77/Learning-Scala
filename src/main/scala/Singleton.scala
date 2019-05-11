@@ -1,0 +1,1 @@
+object Singleton {  private var value = 20;};class Singleton {  import Singleton._;  value +=1;  def printValue(): Unit = {    print(value );  };};object Run{  def main(args: Array[String]): Unit = {    val single = new Singleton();    single.printValue();  }}

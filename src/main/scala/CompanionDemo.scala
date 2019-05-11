@@ -1,0 +1,1 @@
+object CompanionDemo {  def main(args: Array[String]): Unit = {  };  object Student {    private var marks = 20;    def apply: Student = new Student();  };  class Student {    import Student._;    def printMarks(): Unit = {      println(s"$marks");    };  };}

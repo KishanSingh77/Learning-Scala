@@ -1,0 +1,1 @@
+import java.io._;object writingToFile extends App {  val writer = new PrintWriter(new File("mango.txt" ));  writer.write("Hello Scala");  writer.close();}
