@@ -2,10 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c588218a-2112-4be6-9fb2-a585248c4791" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/scala/loops.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/scala/zipWithIndexDemo.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/stackableModifications.scala" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/Rational$Rational.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.12/classes/Rational$Rational.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/zipWithIndexDemo$.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.12/classes/zipWithIndexDemo$.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -30,15 +29,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/scala/Singleton.scala">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="198">
-              <caret line="11" column="3" selection-start-line="11" selection-start-column="3" selection-end-line="11" selection-end-column="3" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/scala/CompanionDemo.scala">
           <provider selected="true" editor-type-id="text-editor">
@@ -114,11 +104,20 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/scala/zipWithIndexDemo.scala">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="144">
               <caret line="8" column="38" selection-start-line="8" selection-start-column="38" selection-end-line="8" selection-end-column="38" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/scala/stackableModifications.scala">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="268">
+              <caret line="21" column="15" lean-forward="true" selection-start-line="21" selection-start-column="15" selection-end-line="21" selection-end-column="15" />
             </state>
           </provider>
         </entry>
@@ -183,6 +182,7 @@
         <option value="$PROJECT_DIR$/src/main/scala/Rational.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/loops.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/zipWithIndexDemo.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/stackableModifications.scala" />
       </list>
     </option>
   </component>
@@ -260,14 +260,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.zipWithIndexDemo">
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="Main" />
-      <module name="ScalaBasics" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.stackableModifications">
     <configuration name="Rational" type="Application" factoryName="Application" temporary="true">
       <option name="MAIN_CLASS_NAME" value="Rational" />
       <module name="ScalaBasics" />
@@ -277,6 +270,13 @@
     </configuration>
     <configuration name="loops" type="Application" factoryName="Application" temporary="true">
       <option name="MAIN_CLASS_NAME" value="loops" />
+      <module name="ScalaBasics" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="stackableModifications" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="stackableModifications" />
       <module name="ScalaBasics" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -298,11 +298,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.stackableModifications" />
         <item itemvalue="Application.zipWithIndexDemo" />
         <item itemvalue="Application.loops" />
         <item itemvalue="Application.Rational" />
         <item itemvalue="Application.ultimate" />
-        <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
   </component>
@@ -357,12 +357,12 @@
       <workItem from="1556641546847" duration="9546000" />
       <workItem from="1556729043849" duration="29070000" />
       <workItem from="1557208719580" duration="1327000" />
-      <workItem from="1557279324317" duration="23340000" />
+      <workItem from="1557279324317" duration="24286000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="63483000" />
+    <option name="totallyTimeSpent" value="64429000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1280" height="727" extended-state="0" />
@@ -728,6 +728,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="144">
           <caret line="8" column="38" selection-start-line="8" selection-start-column="38" selection-end-line="8" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/stackableModifications.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="268">
+          <caret line="21" column="15" lean-forward="true" selection-start-line="21" selection-start-column="15" selection-end-line="21" selection-end-column="15" />
         </state>
       </provider>
     </entry>

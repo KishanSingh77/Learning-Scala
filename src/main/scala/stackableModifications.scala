@@ -1,0 +1,1 @@
+trait A {  def sleep() = {    println("A sleeps")  };};trait B extends A {  override def sleep() = {    println("B sleeps")  };};trait C extends B {  override def sleep() = {    println("C sleeps")  };};object stackableModifications extends App {  val aObj = new A() with C with B;  aObj.sleep();  val bObj = new A() with B with C;  bObj.sleep();}
