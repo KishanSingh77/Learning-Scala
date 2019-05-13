@@ -1,0 +1,1 @@
+object zipWithIndexDemo extends App {  val days = Array("Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday");  days.zipWithIndex.foreach {    case (day, counter) => println(s"$counter is $day");  };  //makes index available in for loops  println(days.view.zipWithIndex.mkString(","));};

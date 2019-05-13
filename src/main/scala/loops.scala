@@ -1,0 +1,1 @@
+object loops extends App {  val arr = Array(5, 5, 3, 2, 8, 9);  var sum = arr.sorted.grouped(2).map(_.min).sum;  for (i <- arr.indices) {    sum += arr(i);  };  println(sum);}
