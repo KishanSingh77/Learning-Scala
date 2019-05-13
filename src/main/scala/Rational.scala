@@ -1,0 +1,1 @@
+object Rational extends  App {  class Rational(n: Int, d: Int){    require(d!= 0);    override def toString = n + "/" + d;  };;  new Rational(5, 6);  // Rational = 5/6  new Rational(5, 0);  //	java.lang.IllegalArgumentException:  // 	requirement failed  //  at scala.Predef$.require(Predef.scala:207)};
