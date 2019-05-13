@@ -1,0 +1,1 @@
+object mapVsForEach extends App {  val arr = Array(1, 2, 3, 4, 5);  val time1 = System.currentTimeMillis;  for (i <- 0 to 999999) {    arr.map(println);  };  val time2 = System.currentTimeMillis;  println(time2 - time1);};

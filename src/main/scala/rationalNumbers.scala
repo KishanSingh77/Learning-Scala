@@ -1,0 +1,1 @@
+object rationalNumbers extends App {val rat = new rationalNumbers(5,8);};class rationalNumbers(x:Int,y:Int){  println(x);}
