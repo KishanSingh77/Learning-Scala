@@ -2,10 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c588218a-2112-4be6-9fb2-a585248c4791" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/scala/Calculator.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/scala/mapVsForEach.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/scala/rationalNumbers.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/Calculator.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/Calculator.scala" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -108,8 +105,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/scala/Calculator.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="15" selection-start-column="15" selection-end-column="15" />
+            <state relative-caret-position="87">
+              <caret line="7" column="32" selection-start-line="7" selection-start-column="32" selection-end-line="7" selection-end-column="32" />
             </state>
           </provider>
         </entry>
@@ -345,12 +342,12 @@
       <workItem from="1556641546847" duration="9546000" />
       <workItem from="1556729043849" duration="29070000" />
       <workItem from="1557208719580" duration="1327000" />
-      <workItem from="1557279324317" duration="17066000" />
+      <workItem from="1557279324317" duration="18375000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="57209000" />
+    <option name="totallyTimeSpent" value="58518000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1280" height="727" extended-state="0" />
@@ -693,8 +690,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/scala/Calculator.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="15" selection-start-column="15" selection-end-column="15" />
+        <state relative-caret-position="87">
+          <caret line="7" column="32" selection-start-line="7" selection-start-column="32" selection-end-line="7" selection-end-column="32" />
         </state>
       </provider>
     </entry>
