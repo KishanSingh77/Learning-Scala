@@ -1,1 +1,1 @@
-;class dummy {  def findName = {    println("Kishan");  };};object dummy {  def main(args: Array[String]): Unit = {    val list = "Kishan" ++ "Singh";    def findName = {      println("Kishan");    }  };}
+object dummy extends App {  println("hello".head);  println("hello".tail);  println("hello, world".take(3));}

@@ -1,0 +1,1 @@
+object hof extends App {  val arr = Array(12, 45, 45, 656, 4545654, 546, 4545654, 456);  val findOne = arr.find(_ == 4545654);  val findAll = arr.filter(_ == 4545654);  println(findOne);  println(findAll.mkString(","));}

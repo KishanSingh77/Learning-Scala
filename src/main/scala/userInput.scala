@@ -1,0 +1,1 @@
+import scala.io.StdIn.readLine;object userInput extends App {  println("Enter first name : ");  val fname = readLine();  println("Enter last name : ");  val lname = readLine();  println(s"Full name is $fname $lname");}
