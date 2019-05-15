@@ -2,14 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c588218a-2112-4be6-9fb2-a585248c4791" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/scala/hof.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/scala/mapCollection.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/scala/samplePizza.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/scala/userInput.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/traits.scala" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/dummy.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/dummy.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/dummy$.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.12/classes/dummy$.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/dummy.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.12/classes/dummy.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -52,11 +46,20 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/scala/samplePizza.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="299">
-              <caret line="48" column="3" selection-start-line="48" selection-start-column="3" selection-end-line="48" selection-end-column="3" />
+            <state relative-caret-position="307">
+              <caret line="73" column="15" selection-start-line="73" selection-start-column="15" selection-end-line="73" selection-end-column="15" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/scala/traits.scala">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="54">
+              <caret line="3" column="30" selection-start-line="3" selection-start-column="30" selection-end-line="3" selection-end-column="30" />
             </state>
           </provider>
         </entry>
@@ -128,6 +131,7 @@
         <option value="$PROJECT_DIR$/src/main/scala/userInput.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/hof.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/samplePizza.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/traits.scala" />
       </list>
     </option>
   </component>
@@ -205,16 +209,16 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Pizza">
-    <configuration name="Pizza" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="Pizza" />
+  <component name="RunManager" selected="Application.Human">
+    <configuration name="Human" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="Human" />
       <module name="ScalaBasics" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="dummy" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="dummy" />
+    <configuration name="Pizza" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="Pizza" />
       <module name="ScalaBasics" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -243,11 +247,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Human" />
         <item itemvalue="Application.Pizza" />
         <item itemvalue="Application.hof" />
         <item itemvalue="Application.mapCollection" />
         <item itemvalue="Application.userInput" />
-        <item itemvalue="Application.dummy" />
       </list>
     </recent_temporary>
   </component>
@@ -306,12 +310,12 @@
       <workItem from="1556729043849" duration="29070000" />
       <workItem from="1557208719580" duration="1327000" />
       <workItem from="1557279324317" duration="25442000" />
-      <workItem from="1557785590670" duration="5287000" />
+      <workItem from="1557785590670" duration="8099000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="70872000" />
+    <option name="totallyTimeSpent" value="73684000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1280" height="727" extended-state="0" />
@@ -700,8 +704,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/scala/samplePizza.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="299">
-          <caret line="48" column="3" selection-start-line="48" selection-start-column="3" selection-end-line="48" selection-end-column="3" />
+        <state relative-caret-position="307">
+          <caret line="73" column="15" selection-start-line="73" selection-start-column="15" selection-end-line="73" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/traits.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="54">
+          <caret line="3" column="30" selection-start-line="3" selection-start-column="30" selection-end-line="3" selection-end-column="30" />
         </state>
       </provider>
     </entry>
