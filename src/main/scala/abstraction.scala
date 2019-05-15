@@ -1,0 +1,1 @@
+abstract class Pet(name: String) {  def speak(): Unit = println(s"My name is $name");};class Dog(name: String) extends Pet(name);object Runner extends App {  val d = new Dog("Fido");  d.speak;};
